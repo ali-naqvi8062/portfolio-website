@@ -9,7 +9,7 @@ export default function HeroSection () {
                     <br />
                     Student
                 </h1>
-                <p className="hero--section--description">Third year Computer Engineering at McMaster University with a strong 
+                <p className="hero--section--description">Third year Computer Engineering student at McMaster University with a strong 
                 <br/> focus on Embedded Systems and Software Development.
                 </p>
             </div>

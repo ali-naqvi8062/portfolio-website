@@ -47,7 +47,6 @@ function NavBar () {
                     <li>
                         <Link 
                         onClick={closeMenu} 
-                        activeClass="navbar--active-content" 
                         spy={true} 
                         smooth={true}
                         offset={-70}
@@ -58,18 +57,16 @@ function NavBar () {
                     <li>
                         <Link 
                         onClick={closeMenu} 
-                        activeClass="navbar--active-content" 
                         spy={true} 
                         smooth={true}
                         offset={-70}
                         duration={500}
-                        to="MyPortfolio"
-                        className="navbar--content">Portfolio</Link>
+                        to="mySkills"
+                        className="navbar--content">Skills</Link>
                     </li>
                     <li>
                         <Link 
                         onClick={closeMenu} 
-                        activeClass="navbar--active-content" 
                         spy={true} 
                         smooth={true}
                         offset={-70}
@@ -80,13 +77,12 @@ function NavBar () {
                     <li>
                         <Link 
                         onClick={closeMenu} 
-                        activeClass="navbar--active-content" 
                         spy={true} 
                         smooth={true}
                         offset={-70}
                         duration={500}
-                        to="Testimonials"
-                        className="navbar--content">Testimonials</Link>
+                        to="MyPortfolio"
+                        className="navbar--content">Projects</Link>
                     </li>
                 </ul>
             </div>

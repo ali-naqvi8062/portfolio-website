@@ -13,7 +13,7 @@ export default function HeroSection () {
                 <br/> focus on Embedded Systems and Software Development.
                 </p>
             </div>
-            <button className="btn btn-primary">Get in Touch</button>
+            <button className="btn btn-primary">Download CV</button>
 
         </div>
         <div className="hero--section--img">

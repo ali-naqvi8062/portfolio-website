@@ -65,6 +65,9 @@ export default function ContactMe() {
               placeholder="Type your message..."
             />
           </label>
+          <label htmlFor="checkboc" className="checkbox--label">
+            <input type="checkbox" required name="checkbox" id="checkbox" />
+          </label>
           <div>
             <button className="btn btn-primary contact--form--btn">Submit</button>
           </div>

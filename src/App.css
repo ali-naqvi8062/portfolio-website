@@ -1,6 +1,7 @@
 /* Global CSS */
 
 body {
+  background: var(--bg-shade);
     margin: 0;
     font-family: "Roboto", sans-serif;
     -webkit-font-smoothing: "Roboto", sans-serif;
@@ -149,6 +150,7 @@ h3 {
     line-height: 32px;
     display: flex;
     align-items: flex-start;
+
 }
 
 /* Contact Me */
@@ -343,6 +345,19 @@ h3 {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+}
+
+.carousel--box {
+  background: var(--bg-shade);
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section--heading--featured{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 40px;
 }
 
 /* Skills Styles ends */

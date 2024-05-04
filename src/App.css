@@ -176,6 +176,7 @@ h3 {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1000;
 }
 
 .navbar--items > ul {
@@ -267,9 +268,99 @@ h3 {
 
 /* Hero Section Style complete */
 
-/* Skills section starts */
+/* Features styles start */
 
-.skills--section {
+.featured--section {
+  display: flex;
+  padding: 112px 85px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.featured--container-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.featured--container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21.3px;
+}
+
+.featured--section--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 42.6px;
+  width: 100%;
+  
+}
+
+.featured--section--img {
+  border-radius: 8px;
+  width: 100%;
+}
+
+.featured--section--img > img {
+  width: 100%;
+}
+
+.featured--section--card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex: 1 0 0;
+  background: #fff;
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.featured--section--card--content {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.featured--section--title {
+  color: var(--heading-color);
+}
+
+.featured--link {
+  text-decoration: none;
+  display: flex;
+  gap: 16px;
+  padding-bottom: 10.6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.featured--link > a{
+  text-decoration: none;
+}
+
+.featured--link:hover {
+  border-bottom: 1.33px solid var(--primary);
+}
+
+.featured--section--card:hover path {
+  stroke: #006b6a;
+}
+
+/* Featured section complete */
+
+/* Portfolio section starts */
+
+.portfolio--section {
     display: flex;
     padding: 149.33px 85.33px;
     flex-direction: column;
@@ -278,14 +369,14 @@ h3 {
     gap: 106.667px;
 }
 
-.skills--section--heading {
+.portfolio--section--heading {
     color: var(--heading-color);
     font-size: 64px;
     font-weight: 700;
     line-height: 77px;
 }
 
-.skills--section--container {
+.portfolio--section--container {
     display: grid;
     justify-content: center;
     align-items: flex-start;
@@ -293,7 +384,7 @@ h3 {
     grid-template-columns: repeat(4, 1fr);
 }
 
-.skills--section--card {
+.portfolio--section--card {
     display: flex;
     padding: 32px;
     flex-direction: column;
@@ -305,15 +396,15 @@ h3 {
     min-height: 250px;
 }
 
-.skills--section--card:hover {
+.portfolio--section--card:hover {
     border-bottom: 4px solid var(--primary);
 }
 
-.skills--section--card:hover .skills--section--description {
+.portfolio--section--card:hover .portfolio--section--description {
     color: var(--darkblue);
 }
 
-.skills--section--img {
+.portfolio--section--img {
     display: flex;
     padding: 13.3px;
     justify-content: center;
@@ -324,7 +415,7 @@ h3 {
     box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
 }
 
-.skills--section--card--content {
+.portfolio--section--card--content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -332,14 +423,14 @@ h3 {
     align-self: stretch;
 }
 
-.skills--section--title{
+.portfolio--section--title{
     color: var(--heading-color);
     font-size: 32px;
     font-weight: 700;
     line-height: 45px;
 }
 
-.skills--section--description {
+.portfolio--section--description {
     color: var(--black);
     font-size: 21.3px;
     font-style: normal;
@@ -351,16 +442,17 @@ h3 {
   background: var(--bg-shade);
   width: 90%;
   margin: 0 auto;
+  margin-top: 80px;
 }
 
-.section--heading--featured{
+.section--heading--portfolio{
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
     margin-bottom: 40px;
 }
 
-/* Skills Styles ends */
+/* Portfolio Styles ends */
 
 /* About Me styles start*/
 
@@ -378,135 +470,6 @@ h3 {
 }
 
 /* About Me ends */
-
-/* My Portfolio styles start */
-
-.portfolio--section {
-    display: flex;
-    padding: 112px 85px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 80px;
-}
-
-.portfolio--container-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-.portfolio--container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 21.3px;
-}
-
-.portfolio--section--container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 42.6px;
-    width: 100%;
-    
-}
-
-.portfolio--section--img {
-    border-radius: 8px;
-    width: 100%;
-}
-
-.portfolio--section--img > img {
-    width: 100%;
-}
-
-.portfolio--section--card {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
-    flex: 1 0 0;
-    background: #fff;
-    box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
-    cursor: pointer;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-}
-
-.portfolio--section--card--content {
-    display: flex;
-    padding: 32px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
-    align-self: stretch;
-}
-
-.portfolio--section--title {
-    color: var(--heading-color);
-}
-
-.portfolio--link {
-    text-decoration: none;
-    display: flex;
-    gap: 16px;
-    border-bottom: 1.33px solid var(--primary);
-    padding-bottom: 10.6px;
-    font-weight: 600;
-}
-
-.portfolio--section--card:hover path {
-    stroke: #006b6a;
-}
-
-/* Portfolio section complete */
-
- /* Test */
-
- .testimonial--section {
-    display: flex;
-    padding: 112px 84.3px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 80px;
-    background-color: var(--bg-shade);
-  }
-  .sections--heading {
-    color: var(--heading-color);
-  }
-  .testimonial--section--card {
-    display: flex;
-    padding: 42.6px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 42.6px;
-    flex: 1 0 0;
-    border-radius: 8px;
-    border: 1.33px solid #006b6a;
-  }
-  .testimonial--section--card--reviews {
-    display: flex;
-    align-items: flex-start;
-    gap: 5.33px;
-  }
-  .testimonial--section--card--author--detail {
-    display: flex;
-    align-items: center;
-    gap: 21.3px;
-  }
-  .testimonial--author--name {
-    font-weight: 600;
-    color: var(--heading-color);
-  }
-  .testimonial--author--designation {
-    color: var(--darkblue);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 150%;
-  }
-
- /* Test End */
 
  /* Contact Me section */
 
@@ -555,9 +518,9 @@ h3 {
     -moz-appearance: none;
     appearance: none;
     /* Some browsers will not display the caret when using calc, so we put the fallback first */
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 21.2052C16.2374 21.4981 15.7626 21.4981 15.4697 21.2052L7.82318 13.5587C7.53029 13.2658 7.53029 12.791 7.82318 12.4981L8.17674 12.1445C8.46963 11.8516 8.9445 11.8516 9.2374 12.1445L16 18.9071L22.7626 12.1445C23.0555 11.8516 23.5303 11.8516 23.8232 12.1445L24.1768 12.4981C24.4697 12.791 24.4697 13.2658 24.1768 13.5587L16.5303 21.2052Z" fill="%23033333"/></svg>')
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none"><path fillRule="evenodd" clipRule="evenodd" d="M16.5303 21.2052C16.2374 21.4981 15.7626 21.4981 15.4697 21.2052L7.82318 13.5587C7.53029 13.2658 7.53029 12.791 7.82318 12.4981L8.17674 12.1445C8.46963 11.8516 8.9445 11.8516 9.2374 12.1445L16 18.9071L22.7626 12.1445C23.0555 11.8516 23.5303 11.8516 23.8232 12.1445L24.1768 12.4981C24.4697 12.791 24.4697 13.2658 24.1768 13.5587L16.5303 21.2052Z" fill="%23033333"/></svg>')
       white no-repeat 98.5% !important; /* !important used for overriding all other customisations */
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 21.2052C16.2374 21.4981 15.7626 21.4981 15.4697 21.2052L7.82318 13.5587C7.53029 13.2658 7.53029 12.791 7.82318 12.4981L8.17674 12.1445C8.46963 11.8516 8.9445 11.8516 9.2374 12.1445L16 18.9071L22.7626 12.1445C23.0555 11.8516 23.5303 11.8516 23.8232 12.1445L24.1768 12.4981C24.4697 12.791 24.4697 13.2658 24.1768 13.5587L16.5303 21.2052Z" fill="%23033333"/></svg>')
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none"><path fillRule="evenodd" clipRule="evenodd" d="M16.5303 21.2052C16.2374 21.4981 15.7626 21.4981 15.4697 21.2052L7.82318 13.5587C7.53029 13.2658 7.53029 12.791 7.82318 12.4981L8.17674 12.1445C8.46963 11.8516 8.9445 11.8516 9.2374 12.1445L16 18.9071L22.7626 12.1445C23.0555 11.8516 23.5303 11.8516 23.8232 12.1445L24.1768 12.4981C24.4697 12.791 24.4697 13.2658 24.1768 13.5587L16.5303 21.2052Z" fill="%23033333"/></svg>')
       white no-repeat calc(100% - 20px); /* Better placement regardless of input width */
   }
   /*For IE*/
@@ -637,6 +600,10 @@ h3 {
     line-height: 28px;
   }
 
+  .footer--hov {
+    cursor: pointer;
+  }
+
   /* Footer stylesheet complete */
 
   /* Responsive screen section */
@@ -646,31 +613,31 @@ h3 {
       font-size: 68px;
       line-height: 70px;
     }
-    .skills--section--title {
+    .portfolio--section--title {
       font-size: 28px;
       line-height: 40px;
     }
   }
   
   @media only screen and (max-width: 1600px) {
-    .skills--section--heading {
+    .portfolio--section--heading {
       font-size: 54px;
       line-height: 70px;
     }
-    .skills--section--container {
+    .portfolio--section--container {
       gap: 16px;
     }
-    .skills--section--card {
+    .portfolio--section--card {
       gap: 28px;
     }
-    .skills--section--card--content {
+    .portfolio--section--card--content {
       gap: 20px;
     }
-    .skills--section--title {
+    .portfolio--section--title {
       font-size: 23px;
       line-height: 30px;
     }
-    .skills--section--description {
+    .portfolio--section--description {
       font-size: 17.333px;
       line-height: 27px;
     }
@@ -690,27 +657,26 @@ h3 {
     .footer--content {
       text-align: center;
     }
-    .skills--section--container,
-    .about--section,
     .portfolio--section--container,
-    .portfolio--container-box,
+    .about--section,
+    .featured--section--container,
+    .featured--container-box,
     .footer--link--container,
     .footer--items > ul,
     .footer--content--container {
       display: flex;
       flex-direction: column;
     }
-    .skills--section,
-    .portfolio--container,
+    .portfolio--section,
+    .featured--container,
     .hero--section--content,
     .hero--section--content--box {
       align-items: center;
     }
-    .portfolio--container-box {
+    .featured--container-box {
       gap: 30px;
     }
-    .skills--section,
-    .testimonial--section,
+    .portfolio--section,
     .contact--section,
     .footer--container {
       gap: 20px;
@@ -722,11 +688,8 @@ h3 {
       padding-top: 0;
       padding-bottom: 0;
     }
-    .testimonial--section--card {
-      padding: 25px;
-    }
     .hero--section--title,
-    .skills--section--heading,
+    .portfolio--section--heading,
     .sections--heading {
       font-size: 35px;
       line-height: 40px;

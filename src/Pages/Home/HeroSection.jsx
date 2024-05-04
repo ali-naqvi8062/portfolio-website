@@ -9,12 +9,11 @@ export default function HeroSection () {
                     <br />
                     Student
                 </h1>
-                <p className="hero--section--description">Third year Computer Engineering student at McMaster University with a strong 
-                <br/> focus on Embedded Systems and Software Development.
+                <p className="hero--section--description">Third year Computer Engineering student at McMaster University's co-op program 
+                <br/>with a strong focus on Embedded Systems and Software Development.
                 </p>
             </div>
-            <button className="btn btn-primary">Download CV</button>
-
+            <a href="/Ali_Naqvi_Resume.pdf" target="_blank" className="btn btn-primary">Download CV</a>
         </div>
         <div className="hero--section--img">
             <img src="./img/hero_img.png" alt="Hero Section" />

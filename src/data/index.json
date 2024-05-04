@@ -1,5 +1,5 @@
 {
-    "skills": [
+    "portfolio": [
         {
             "id": "1",
             "src": "./img/product-chain-1.png",
@@ -25,53 +25,27 @@
             "description": "Lorem impsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
         }
     ],
-    "portfolio": [
+    "featured": [
         {
             "id": "1",
             "src": "./img/placeholder-img.png",
             "title": "Ahuse",
             "description": "Lorem impsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique",
-            "link": "View in GitHub"
+            "link": "https://github.com/ali-naqvi8062"
         },
         {
             "id": "2",
             "src": "./img/placeholder-img.png",
             "title": "App Dashboard",
             "description": "Lorem impsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique",
-            "link": "View in GitHub"
+            "link": "https://github.com/ali-naqvi8062"
         },
         {
             "id": "3",
             "src": "./img/placeholder-img.png",
             "title": "Easy Rent",
             "description": "Lorem impsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique",
-            "link": "View in GitHub"
+            "link": "https://github.com/ali-naqvi8062"
         }
-    ],
-    "testimonial": [
-      {
-        "id": "1",
-        "count": "5",
-        "src": "./img/avatar-image.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Dianne Russel",
-        "author_designation": "Starbucks"
-      },
-      {
-        "id": "2",
-        "count": "5",
-        "src": "./img/avatar-image-1.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Kristin Watson",
-        "author_designation": "Louis Vuitton"
-      },
-      {
-        "id": "3",
-        "count": "5",
-        "src": "./img/avatar-image-2.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Kathryn Murphy",
-        "author_designation": "McDonald's"
-      }
     ]
 }

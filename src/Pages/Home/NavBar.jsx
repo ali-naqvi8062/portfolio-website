@@ -37,11 +37,11 @@ function NavBar () {
             <div>
                 <img src="./img/logo.svg" alt="Logoipsum" />
             </div>
-            <a className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
+            <button href="#" className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
                 <span className="nav__hamburger__line"></span>
                 <span className="nav__hamburger__line"></span>
                 <span className="nav__hamburger__line"></span>
-            </a>
+            </button>
             <div className={`navbar--items ${navActive ? "active" : ""}`}> 
                 <ul>
                     <li>
@@ -61,8 +61,8 @@ function NavBar () {
                         smooth={true}
                         offset={-70}
                         duration={500}
-                        to="mySkills"
-                        className="navbar--content">Skills</Link>
+                        to="Featured"
+                        className="navbar--content">Featured</Link>
                     </li>
                     <li>
                         <Link 
@@ -81,7 +81,7 @@ function NavBar () {
                         smooth={true}
                         offset={-70}
                         duration={500}
-                        to="MyPortfolio"
+                        to="Portfolio"
                         className="navbar--content">Projects</Link>
                     </li>
                 </ul>

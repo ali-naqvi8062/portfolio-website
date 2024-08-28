@@ -10,15 +10,15 @@ export default function AboutMe () {
                         About Me
                     </h1>
                     <p className="hero--section-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dignissimos veritatis quis consequatur et 
-                        architecto recusandae vero asperiores vitae, reprehenderit error amet libero, iusto facere blanditiis quia ab. 
-                        Rem, exercitationem obcaecati mollitia non eveniet quis corrupti, voluptatibus aliquid recusandae minima, 
-                        delectus esse pariatur libero dolore deserunt optio! 
-                        Fugiat alias fuga iusto, tempore exercitationem consectetur placeat praesentium repellat, amet esse sint!
+                        I am an aspiring Computer Engineer based in the Greater Toronto Area with a passion for using technology to 
+                        bring ideas to life. My portfolio showcases a variety of projects I've worked on which
+                        include embedded systems projects, game development, and web development which are areas I am primarily focused in. 
+                        I thrive on the challenge of turning concepts into reality and my work reflects my commitment to exploring the 
+                        intersection of creativity and technology.
                     </p>
                     <p className="hero--section-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor fugit error, corporis saepe possimus esse nisi.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor fugit error, corporis saepe possimus esse nisi.
+                        Currently I am studying in my 3rd year of Computer Engineering at McMaster University.
+                        In my free time I enjoy playing competitive chess, video games and playing soccer. 
                     </p>
                 </div>
             </div>

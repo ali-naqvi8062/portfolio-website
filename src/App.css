@@ -191,6 +191,11 @@ h3 {
     text-decoration: none;
 }
 
+/* Add the hover effect here */
+.navbar--items > ul > li > a:hover {
+  text-decoration: underline;
+}
+
 /* Navbar content */
 
 .navbar--content {
@@ -788,4 +793,31 @@ h3 {
     }
   }
   
-  /* Responsive Screens Ends*/
+@media screen and (max-width: 768px) {
+    .navbar--logo {
+        display: none; /* Hide the logo in mobile view */
+    }
+
+    .nav__hamburger {
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Ensure it is centered vertically */
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%); /* Center the hamburger icon horizontally */
+        height: 100%; /* Make sure it takes the full height of the navbar */
+    }
+}
+
+/* Restore logo and hamburger styles in desktop view */
+@media screen and (min-width: 769px) {
+    .navbar--logo {
+        display: block; /* Show the logo in desktop view */
+    }
+
+    .nav__hamburger {
+        justify-content: flex-end;
+        position: static; /* Restore original position */
+        transform: none; /* Remove centering transform */
+    }
+}

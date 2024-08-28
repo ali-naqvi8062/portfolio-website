@@ -28,24 +28,24 @@
     "featured": [
         {
             "id": "1",
-            "src": "./img/placeholder-img.png",
-            "title": "Ahuse",
-            "description": "Lorem impsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique",
-            "link": "https://github.com/ali-naqvi8062"
+            "src": "./img/lidar.png",
+            "title": "3D LIDAR Scanner",
+            "description": "Developed a 3D Spatial Mapper using a ToF sensor and stepper motor, enabling real-time indoor environment mapping with 360° rotation and data visualization via Python.",
+            "link": "https://github.com/ali-naqvi8062/3D-Spatial-Mapper"
         },
         {
             "id": "2",
-            "src": "./img/placeholder-img.png",
-            "title": "App Dashboard",
-            "description": "Lorem impsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique",
-            "link": "https://github.com/ali-naqvi8062"
+            "src": "./img/snake.png",
+            "title": "'Snake' Game Replica",
+            "description": "Replicated the famous 'Snake'  on the command line terminal console using C++. Utilized various data structures & algorithms to maximize game efficiency.",
+            "link": "https://github.com/ali-naqvi8062/snake"
         },
         {
             "id": "3",
-            "src": "./img/placeholder-img.png",
-            "title": "Easy Rent",
-            "description": "Lorem impsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique",
-            "link": "https://github.com/ali-naqvi8062"
+            "src": "./img/stm_32.png",
+            "title": "Task Scheduler",
+            "description": "Developed a task scheduler with context switching on STM32, enabling efficient multi-tasking with precise LED control and round-robin task management.",
+            "link": "https://github.com/ali-naqvi8062/task_scheduler"
         }
     ]
 }

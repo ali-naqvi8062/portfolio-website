@@ -59,6 +59,7 @@ export default function ContactMe() {
               className="contact--input text-md"
               name="phoneNumber"
               id="phone-number"
+              placeholder="Optional"
             />
           </label>
         </div>

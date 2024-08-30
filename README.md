@@ -1,5 +1,3 @@
-under construction...
+## Welcome to my personal portfolio website!
 
-To do: 
-- Change Website Logo / Add images of myself
-- Add project content / Images
+Built with HTML, CSS and React

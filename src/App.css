@@ -645,10 +645,30 @@ h3 {
     .portfolio--section--description {
       font-size: 17.333px;
       line-height: 27px;
+      text-align: center;
     }
   }
   
   @media only screen and (max-width: 1200px) {
+    #abt {
+      font-size: 24px;
+    }
+
+    #abt-head {
+      font-size: 45px;
+    }
+
+    #desc {
+      font-size: 15px;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+
+    #feat {
+      font-size:45px;
+      text-align: center;
+    }
+
     .btn-outline-primary {
       display: none;
     }
@@ -820,4 +840,9 @@ h3 {
         position: static; /* Restore original position */
         transform: none; /* Remove centering transform */
     }
+}
+
+#headshot {
+  transform: scale(0.9);
+  border-radius: 50%;
 }

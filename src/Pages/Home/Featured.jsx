@@ -5,7 +5,7 @@ export default function Featured () {
         <section className="featured--section" id="Featured">
             <div className="featured--container-box">
                 <div className="featured--container">
-                    <h2 className="section--heading">
+                    <h2 className="section--heading" id="feat">
                         Featured Projects
                     </h2>
                 </div>

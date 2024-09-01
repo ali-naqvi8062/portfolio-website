@@ -2,7 +2,7 @@ export default function AboutMe () {
     return (
         <section id="AboutMe" className="about--section">
             <div className="about--section--img">
-                <img src="./img/about-me.png" alt="About Me"/>
+                <img src="./img/about_img.png" alt="About Me" id="abt-img"/>
             </div>
             <div className="hero--section--content--box about--section--box">
                 <div className="hero--section--content">
@@ -13,6 +13,8 @@ export default function AboutMe () {
                         I am an aspiring Computer Engineer based in the Greater Toronto Area with a passion for using technology to 
                         bring ideas to life. My portfolio showcases a variety of projects I've worked on which
                         include embedded systems projects, game development, and web development which are areas I am primarily focused in. 
+                    </p>
+                    <p className="hero--section-description" id="abt">
                         I thrive on the challenge of turning concepts into reality and my work reflects my commitment to exploring the 
                         intersection of creativity and technology.
                     </p>
